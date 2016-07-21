@@ -1,0 +1,144 @@
+/* header 开始 */
+
+
+
+.trl {
+  width: 100%;
+  height: 4px;
+}
+
+.mbrl {
+  width: 100%;
+  height: 60px;
+}
+
+.lb {
+  width: 1200px;
+  height: 116px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 374px;
+  height: 59px;
+  display: block;
+  margin-left: 54px;
+  margin-top: 25px;
+}
+
+.tp {
+  height: 60px;
+  float: right;
+  margin-right: 50px;
+  margin-top: 25px;
+  background: url(../images/telephone.png) no-repeat right center;
+  padding-right: 80px;
+  text-align: right;
+}
+
+.ffyh {
+  font-size: 16.36px;
+  line-height: 30px;
+  color: #c5000a;
+}
+
+.tp p {
+  font-family: "汉真广标";
+  font-size: 27.27px;
+  line-height: 30px;
+  color: #c5000a;
+}
+
+
+
+
+
+
+
+
+
+
+.nb {
+  width: 1200px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+.fn {
+  width: 238px;
+  height: 60px;
+  float: left;
+  border-left: 1px solid #c5000a;
+  border-right: 1px solid #c5000a;
+}
+
+.now {
+  background: #fff !important;
+  color: #c5000a !important;
+}
+
+.fn a {
+  width: 100%;
+  height: 60px;
+  display: block;
+  font-size: 18px;
+  line-height: 60px;
+  color: #fff;
+  text-align: center;
+  transition: all 0.5s;
+}
+
+.sn {
+  width: 100%;
+  height: 0;
+  background: #dd1b25;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.sn a.link2 {
+  width: 100%;
+  height: 0;
+  display: block;
+  font-size: 14px;
+  line-height: 39px;
+  color: #fff;
+  text-align: center;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.fn:hover a.link1 {
+  background: #fff;
+  color: #c5000a;
+}
+
+.fn:hover .sn {
+  height: 39px;
+  opacity: 1;
+}
+
+.fn:hover a.link2 {
+  height: 100%;
+  line-height: 39px;
+  opacity: 1;
+}
+
+a.link2:hover {
+  background: #fff;
+  color: #c5000a;
+}
+
+
+
+/* header 结束 */
+
+
+
+
+
+
+
+
+
+/* banner 开始 */
