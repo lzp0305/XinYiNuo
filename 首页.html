@@ -29,29 +29,49 @@
       <ul class="fn"><a href="首页.html" class="link1 ffyh now">        首页        </a>
       </ul>
       <ul class="fn"><a href="#" class="link1 ffyh">        产品        </a>
-        <li class="sn"><a href="#" class="link2 ffyh">        产品详情        </a></li>
-        <li class="sn"><a href="#" class="link2 ffyh">        产品结构        </a></li>
-        <li class="sn"><a href="#" class="link2 ffyh">        使用指南        </a></li>
+        <li class="sn"><a href="#" class="link2 ffyh" data-hover="        产品详情        "><span>        产品详情        </span></a></li>
+        <li class="sn"><a href="#" class="link2 ffyh" data-hover="        产品结构        "><span>        产品结构        </span></a></li>
+        <li class="sn"><a href="#" class="link2 ffyh" data-hover="        使用指南        "><span>        使用指南        </span></a></li>
       </ul>
       <ul class="fn"><a href="#" class="link1 ffyh">        品牌        </a>
-        <li class="sn"><a href="#" class="link2 ffyh">        研发历程        </a></li>
-        <li class="sn"><a href="#" class="link2 ffyh">        科学研究        </a></li>
-        <li class="sn"><a href="#" class="link2 ffyh">        颠覆传统        </a></li>
-        <li class="sn"><a href="#" class="link2 ffyh">        媒体报道        </a></li>
+        <li class="sn"><a href="#" class="link2 ffyh" data-hover="        研发历程        "><span>        研发历程        </span></a></li>
+        <li class="sn"><a href="#" class="link2 ffyh" data-hover="        科学研究        "><span>        科学研究        </span></a></li>
+        <li class="sn"><a href="#" class="link2 ffyh" data-hover="        颠覆传统        "><span>        颠覆传统        </span></a></li>
+        <li class="sn"><a href="#" class="link2 ffyh" data-hover="        媒体报道        "><span>        媒体报道        </span></a></li>
       </ul>
       <ul class="fn"><a href="#" class="link1 ffyh">        服务        </a>
-        <li class="sn"><a href="#" class="link2 ffyh">        使用指导        </a></li>
-        <li class="sn"><a href="#" class="link2 ffyh">        维修保障        </a></li>
-        <li class="sn"><a href="#" class="link2 ffyh">        咨询问答        </a></li>
+        <li class="sn"><a href="#" class="link2 ffyh" data-hover="        使用指导        "><span>        使用指导        </span></a></li>
+        <li class="sn"><a href="#" class="link2 ffyh" data-hover="        维修保障        "><span>        维修保障        </span></a></li>
+        <li class="sn"><a href="#" class="link2 ffyh" data-hover="        咨询问答        "><span>        咨询问答        </span></a></li>
       </ul>
       <ul class="fn"><a href="#" class="link1 ffyh">        关于我们        </a>
-        <li class="sn"><a href="#" class="link2 ffyh">        公司简介        </a></li>
+        <li class="sn"><a href="#" class="link2 ffyh" data-hover="        公司简介        "><span>        公司简介        </span></a></li>
       </ul>
     </div>
   </div>
 </div>
 <div id="banner">
-  
+  <div class="bannerContainer">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" style="background:url(images/banner1.jpg)"><a href="#"></a></div>
+        <div class="swiper-slide" style="background:url(images/banner2.jpg)"><a href="#"></a></div>
+        <div class="swiper-slide" style="background:url(images/banner3.jpg)"><a href="#"></a></div>
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      pagination: '.swiper-pagination',
+      paginationClickable: true,
+      centeredSlides: true,
+      autoplay: 2500,
+      autoplayDisableOnInteraction: false,
+      loop: true,
+    });
+  </script>
 </div>
 <div id="main"></div>
 <div id="footer"></div>
