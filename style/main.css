@@ -297,8 +297,8 @@ span {
   width: 1200px;
   margin: 0 auto;
   padding-top: 87px;
+  position: relative;
 }
-
 .jkyText {
   font-size: 48px;
   color: #3e3e3e;
@@ -312,7 +312,273 @@ span {
   margin-top: 11px;
 }
 
+.model {
+  width: 576px;
+  height: 382px;
+  margin: 100px auto;
+  margin-bottom: 0;
+}
+
+.sixBar {
+  width: 207px;
+  padding-left: 80px;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: justify;
+  color: #000;
+  position: absolute;
+}
+
+.sixBar1 {
+  top: 320px;
+  background: url(../images/sixPart1.png) no-repeat;
+}
+
+.sixBar2 {
+  top: 460px;
+  background: url(../images/sixPart1.png) no-repeat;
+}
+
+.sixBar3 {
+  top: 600px;
+  background: url(../images/sixPart1.png) no-repeat;
+}
+
+.sixBar4 {
+  top: 220px;
+  right: 0;
+  background: url(../images/sixPart1.png) no-repeat;
+}
+
+.sixBar5 {
+  top: 360px;
+  right: 0;
+  background: url(../images/sixPart1.png) no-repeat;
+}
+
+.sixBar6 {
+  top: 500px;
+  right: 0;
+  background: url(../images/sixPart1.png) no-repeat;
+}
 
 
+
+
+
+
+.gb-container {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 0;
+}
+
+.greenBar {
+  width: 1920px;
+  height: 180px;
+  position: absolute;
+  left: -360px;
+  background: url(../images/greenBar.jpg) no-repeat;
+}
+
+
+
+
+
+
+.warp2 {
+  width: 100%;
+  height: 699px;
+  margin-top: 180px;
+}
+
+.container2 {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 87px;
+  position: relative;
+}
+.fywText {
+  font-size: 48px;
+  color: #3e3e3e;
+  text-align: center;
+}
+
+.fywText2 {
+  font-size: 26px;
+  color: #959595;
+  text-align: center;
+  margin-top: 11px;
+}
+
+
+.wwContainer {
+  width: 728px;
+  height: 358px;
+  margin-left: 61px;
+  margin-top: 55px;
+  float: left;
+}
+
+
+.ww-redline {
+  width: 1px;
+  height: 358px;
+  background: #ea363f;
+  margin-left: 53px;
+  margin-top: 55px;
+  float: left;
+}
+
+
+
+
+
+.model2Text {
+  width: 290px;
+  height: 263px;
+  margin-left: 57px;
+  margin-top: 65px;
+  font-family: Microsoft YaHei;
+  font-size: 22px;
+  color: #575656;
+  line-height: 38px;
+  float: left;
+}
+
+.knowMore {
+  width: 191px;
+  height: 52px;
+  margin-left: 57px;
+  margin-top: 32px;
+  background: url(../images/knowMore.png);
+  float: left;
+  position: relative;
+}
+
+.knowMoreA {
+  width: 191px;
+  height: 52px;
+  cursor: pointer;
+}
+
+.knowMoreText {
+  width: 115px;
+  height: 14px;
+  font-family: Microsoft YaHei;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  position: absolute;
+  left: 62px;
+  top: 15px;
+}
 
 /* main 样式结束 */
+
+
+
+
+
+.ft-t { 
+  width:100%; 
+  height:220px; 
+  background:#c9c9c9;
+}
+
+.ft-tc { 
+  width:1150px; 
+  margin:0 auto; 
+  overflow:hidden;
+}
+
+.ft-l { 
+  width:475px; 
+  text-align:center; 
+  color:#393939; 
+  float:left;
+}
+
+.ft-l .ft-lt { 
+  font-size:25px; 
+  line-height:30px; 
+  padding-top:30px;
+}
+
+.ft-l .ft-lt p { 
+  font-size:18px;
+}
+
+.ft-l .ft-lb { 
+  margin-top:22px; 
+  font-size:14px; 
+  line-height:30px;
+}
+
+.ft-c { 
+  width:128px; 
+  float:left; 
+  text-align:center; 
+  font-size:13px; 
+  line-height:40px; 
+  color:#393939;
+} 
+
+.ft-c img { 
+  margin-top:25px;
+}
+
+.ft-r { 
+  float:left; 
+  width:545px; 
+  margin-top: 30px;
+}
+
+.ft-rc { margin:0 auto; 
+  width:430px; 
+  text-align:center;
+}
+
+.ft-rc ul { 
+  float:left; 
+  margin:0px 18px; 
+  width:70px; 
+  line-height:30px;
+} 
+
+
+.ft-rc .ft-tit { 
+  font-size:17px; 
+  line-height:30px; 
+  width:430px;
+}
+
+.ft-rc .ft-tit li { 
+  float:left; 
+  margin-right:36px; 
+  width:70px;
+}
+
+.ft-b { 
+  background:#393939; 
+  width:100%; 
+  height:40px;
+}
+
+.ft-bc {
+  width:1150px; 
+  margin:0 auto; 
+  font-size:14px; 
+  line-height:40px; 
+  color:#fff; 
+  text-align:center;
+}
+
+.ft-bc span { 
+  margin:0px 40px;
+}
+
+.ft-bc a { 
+  color:#fff;
+}
