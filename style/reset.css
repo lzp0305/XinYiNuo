@@ -44,5 +44,6 @@ table {border-collapse:collapse;border-spacing:0}
 .b24 { font-size:24px; font-family:Arial; color:#e12502;}
 /* 本项目通用样式 */
 
-.cca { background-color: #c5000a; color:#c5000a;}
+.bcca { background-color: #c5000a;}
+.cca {color: #c5000a;}
 .ffyh { font-family: Microsoft YaHei;}
