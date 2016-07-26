@@ -135,7 +135,7 @@ a.link2:hover {
 }
 
 
-span {
+a.link2 span {
   position: absolute;
   top: 0;
   left: 0;
@@ -206,62 +206,138 @@ span {
   position: relative;
 }
 
-.bannerContainer {
-  width: 1920px;
-  height: 540px;
-  position: absolute;
-  left: -360px;
-  top;0;
-}
-
-.swiper-container {
-  width: 100%;
-  height: 100%;
-}
-
-.swiper-slide {
-  z-index: 10;
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-
-  /* Center slide text vertically */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
-}
-
-.swiper-slide a {
-  width: 1920px;
-  height: 540px;
-}
-
-.swiper-pagination-bullet {
-  height: 30px;
-  width: 30px;
-  background: url(../images/bannerIcon.png);
-  opacity: 1;
-}
-
-.swiper-pagination-bullet-active {
-  background: url(../images/bannerIconNow.png);
-}
 /* banner 样式结束 */
+ .banner-container {
+        width: 1920px;
+        height: 540px;
+        position: absolute;
+        left: -360px;
+    }
+    .banner-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
 
+    .swiper-pagination-bullet {
+        width: 30px;
+        height: 30px;
+        background: url(../images/bannerIcon.png);
+        opacity: 1;
+    }
+
+    .swiper-pagination-bullet-active {
+        background: url(../images/bannerIconNow.png);
+    }
 
 
 
 
 /* main 样式开始 */
+.main-pro {
+  width: 1200px;
+  height: 1000px;
+  margin: 0 auto;
+}
+
+
+.leftMenu {
+  width: 247px;
+  float: left;
+  position: relative;
+}
+
+.leftMenu p {
+  font-size: 22px;
+  position: absolute;
+  left: 170px;
+  top: 47px;
+}
+
+.leftMenuTop {
+  width: 247px;
+  height: 91px;
+}
+
+.leftMenuBottom {
+  width: 247px;
+  height: 102px;
+}
+
+
+.leftMenuNow {
+  background: #c5000a;
+}
+.leftMenuNow a {
+  color: #fff !important;
+}
+
+.pro a {
+  color: #c5000a;
+  padding-left: 25px;
+  font-size: 16px;
+  line-height: 33px;
+  display: block;
+  transition: all 0.18s;
+}
+
+
+.pro {
+  width: 245px;
+  border-left: 1px solid #d7d7d6;
+  border-right: 1px solid #d7d7d6;
+  margin-top: 1px;
+  float: left;
+}
+
+.pro a:hover {
+  background: #c5000a;
+  color: #fff;
+}
+
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .threeBox {
   width: 1065px;
   height: 378px;
@@ -413,7 +489,7 @@ span {
 }
 
 
-.wwContainer {
+.warp2-container {
   width: 728px;
   height: 358px;
   margin-left: 61px;
