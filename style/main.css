@@ -257,8 +257,8 @@ a.link2 span {
 
 .leftMenu {
   width: 247px;
-  float: left;
   position: relative;
+  margin-top: 20px;
 }
 
 .leftMenu p {
@@ -286,6 +286,10 @@ a.link2 span {
   color: #fff !important;
 }
 
+.leftMenuNow a:after {
+  color: #fff !important;
+}
+
 .pro a {
   color: #c5000a;
   padding-left: 25px;
@@ -293,6 +297,12 @@ a.link2 span {
   line-height: 33px;
   display: block;
   transition: all 0.18s;
+}
+
+.pro a:after {
+  content: "—";
+  margin-left: 120px;
+  color: #c5000a;
 }
 
 
@@ -309,23 +319,42 @@ a.link2 span {
   color: #fff;
 }
 
+.pro a:hover:after {
+  color: #fff;
+}
 
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+.leftInfo {
+  width: 247px;
+  margin-top: 54px;
+}
 
+.cont {
+  height: 22px;
+  background-position: 7px 0;
+  border-bottom: 1px solid #c5000a;
+  padding-left: 40px;
+  margin-top: 7px;
+  font-size: 14px;
+  line-height: 22px;
+}
 
+.contAddress {
+  background: url(../images/lianxidizhi.png) no-repeat;
+}
 
+.contPhone {
+  background: url(../images/lianxidianhua.png) no-repeat;
+}
 
+.shengChanShang {
+  background: url(../images/shengchanshang.png) no-repeat;
+}
+
+.leftInfo p {
+  font-size: 14px;
+  line-height: 22px;
+  color: #8a8886;
+}
 
 
 
