@@ -1,0 +1,114 @@
+.flexsliderwarp {
+  background: #eeedeb;
+  width:923px; 
+  height:384px; 
+  float:left;
+  position: relative;
+}
+
+.flexslider {
+  width:486px; 
+  height:332px; 
+  background-color:#FFF; 
+  zoom: 1; 
+  position:relative;
+  margin-left: 30px;
+  margin-top: 24px;
+}
+
+.flexslider .slides  li {
+  display: none; 
+  -webkit-backface-visibility: hidden; 
+  position:relative;
+}
+
+
+.flexslider .slides img { 
+  width:486px; 
+  height:332px; 
+  display: block;
+}
+
+.slides:after {
+  content: "."; 
+  display: block; 
+  clear: both; 
+  visibility: hidden; 
+  line-height: 0; 
+  height: 0;
+} 
+
+.no-js .slides  li:first-child {
+  display: block;
+}
+
+.flex-control-thumbs {
+  position:absolute; 
+  overflow: hidden;
+  width:328px; 
+  top:45px; 
+  right:-376px;
+  padding-top: 35px;
+  border-top: 1px solid #929291;
+}
+
+.flex-control-thumbs li {
+  width: 146px;
+  height: 100px;
+  float: left;
+  position:relative;
+  margin: 10px 7px; 
+}
+
+
+.flex-control-thumbs img {
+  width:146px; 
+  height:100px;
+  display: block; 
+  cursor: pointer; 
+}
+
+.flex-control-thumbs img:hover {
+  opacity: 1;
+}
+
+.flex-control-thumbs .flex-active {
+  width: 144px;
+  height: 98px;
+  border: 1px solid #c5000a;
+  opacity: 1; 
+  cursor: default; 
+}
+
+/* Direction Nav */
+.flex-direction-nav a {
+  width:43px; 
+  height:71px; 
+  margin-top:-100%;
+  display: block; 
+  position: absolute; 
+  top:40%; 
+  z-index: 10; 
+  cursor: pointer; 
+  text-indent: -9999px; 
+  opacity: 0; 
+  // -webkit-transition: all .3s ease;
+}
+
+.flex-active-slide a {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.slides p {
+  width: 328px;
+  height: 37px;
+  line-height: 37px;
+  font-family: Microsoft YaHei;
+  font-size: 24px;
+  text-align: center;
+  color: #c5000a;
+  position: absolute;
+  left: 534px;
+}
