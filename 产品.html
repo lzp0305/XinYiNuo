@@ -31,7 +31,7 @@
     <div class="nb">
       <ul class="fn"><a href="首页.html" class="link1 ffyh">        首页        </a>
       </ul>
-      <ul class="fn"><a href="#" class="link1 ffyh now">        产品        </a>
+      <ul class="fn"><a href="产品.html" class="link1 ffyh now">        产品        </a>
         <li class="sn"><a href="#" class="link2 ffyh" data-hover="        产品详情        "><span>        产品详情        </span></a></li>
         <li class="sn"><a href="#" class="link2 ffyh" data-hover="        产品结构        "><span>        产品结构        </span></a></li>
         <li class="sn"><a href="#" class="link2 ffyh" data-hover="        使用指南        "><span>        使用指南        </span></a></li>
@@ -58,7 +58,7 @@
 
 
 
-
+<!--  banner 开始  -->
 <div id="banner">
     <div class="swiper-container banner-container">
       <div class="swiper-wrapper banner-wrapper">
@@ -81,184 +81,326 @@
     });
   </script>
 </div>
+<!--  banner 结束  -->
 
-
-
+<!--  主体开始  -->
 <div class="main-pro" id="main">
-  
+    
+  <!--  左侧开始  -->
+  <div class="mainLeft">
+    <!--  左侧导航菜单  -->
+    <div class="leftMenu">
+      <p class="ffyh cca">        产品        </p>
+      <img src="images/leftMenuTop.png" alt="" class="leftMenuTop">
+      <div class="propro">
+        <div class="pro leftMenuNow ffyh" style="margin-top: 0;">
+          <a href="#">        产品详情        </a>
+        </div>
+        <div class="pro ffyh">
+          <a href="#">        产品结构        </a>
+        </div>
+        <div class="pro ffyh">
+          <a href="#">        使用指南        </a>
+        </div>
+      </div>
+      <img src="images/leftMenuBottom.png" alt="" class="leftMenuBottom">
+    </div>
+    
 
+    <!--  左侧信息栏  -->
+    <div class="leftInfo">
+      <div class="cont contAddress ffyh cca">       联系地址        
+      </div>
+      <p class="ffyh">        江西省南昌市青山湖区解放东路1888号立升国际7楼       </p>
+      <div class="cont contPhone ffyh cca">        联系电话        
+      </div>
+      <p class="ffyh">        400-0179-018        </p>
+      <div class="cont shengChanShang ffyh cca">       生产商       
+      </div>
+      <p class="ffyh">        广州市松之纯电器有限公司        </p>
+    </div>
 
-  <div class="leftMenu"><p class="ffyh cca">        产品        </p>
-    <img src="images/leftMenuTop.png" alt="" class="leftMenuTop">
-    <div class="pro leftMenuNow ffyh" style="margin-top: -5px;"><a href="#">        产品详情        </a></div>
-    <div class="pro ffyh"><a href="#">        产品结构        </a></div>
-    <div class="pro ffyh"><a href="#">        使用指南        </a></div>
-    <img src="images/leftMenuBottom.png" alt="" class="leftMenuBottom">
   </div>
-  
+  <!--  左侧结束  -->
+
+  <!--  右侧开始  -->
+  <div class="mainRight">
+
+    <!--  右侧顶部分割线  -->
+    <div class="rightTopBar"></div>
+
+    <!--  右侧栏目1  -->
+    <div class="proXiangQing">
+      <!--  标题左侧方块  -->
+      <div class="rightTitleBG"></div>
+      <!--  标题  -->
+      <div class="rightTitle ffyh cca">        产品详情        </div>
+
+      <!--  栏目内容  -->
+      <div class="rightMainText1 ffyh">        医诺康红光健康仪采用半导体超亮度高功率LED点状矩阵式的小角度光源, 直接发出峰值波长640nm红光作用于人体病患部位，产生光化学效应,增强细胞的新陈代谢，加速细胞的新生，促进伤口和溃疡的愈合，具有消炎、消肿、镇痛、解痉、调节人体免疫和神经机能等效果。        </div>
 
 
-  <div class="leftInfo">
-    <div class="cont contAddress ffyh cca">       联系地址        
+
+
+      <!--  body 内部轮播图  -->
+      <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+      <script type="text/javascript" src="js/jquery.flexslider2.js"></script>
+      <script type="text/javascript">
+      $(window).load(function(){
+        $('.flexslider').flexslider({
+          animation: "fade",
+          controlNav: "thumbnails"
+        });
+      });
+      </script>
+      <div class="flexsliderwarp">
+        <div class="flexslider">
+          <ul class="slides">
+            <li data-thumb="images/chanpinlunbo1.png">
+              <a href="#"></a>
+              <p>        YNK-H1        </p>
+              <img src="images/chanpinlunbo1.png">
+            </li>
+            <li data-thumb="images/chanpinlunbo2.png">
+              <p>        ABC-H2        </p>
+              <img src="images/chanpinlunbo2.png">
+            </li>
+            <li data-thumb="images/chanpinlunbo3.png">
+              <p>        KNY-H3        </p>
+              <img src="images/chanpinlunbo3.png">
+            </li>
+            <li data-thumb="images/chanpinlunbo4.png">
+              <p>        CBA-H4        </p>
+              <img src="images/chanpinlunbo4.png">
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <p class="ffyh">        江西省南昌市青山湖区解放东路1888号立升国际7楼       </p>
-     <div class="cont contPhone ffyh cca">        联系电话        
+
+    <!--  右侧栏目2  -->
+    <div class="jiankangyuanli">
+      <!--  标题左侧方块  -->
+      <div class="rightTitleBG"></div>
+      <!--  标题  -->
+      <div class="rightTitle ffyh cca">        红光健康原理        </div>
+
+      <!--  栏目内容  -->
+      <div class="rightMainText1 ffyh">        人体细胞中的线粒体对红光的吸收最大，经红光照射以后，线粒体的过氧化氢酶活性增强，这样能加快细胞的新陈代谢，使糖元含量增加、蛋白合成增加、三磷酸腺苷分解增加，从而促进细胞合成、伤口和溃疡的愈合，同时增加白血球的吞噬能力，提高机体的免疫功能。        </div>
+      <!--  两张图片  -->
+      <div class="jiankangyuanlitu1">
+        <img class="jiankangyuanlitu" src="images/jiankangyuanli1.png" alt="">
+        <p class="jiankangyuanlituP ffyh">        光谱图        </p>
+      </div>
+      <div class="jiankangyuanlitu2">
+        <img class="jiankangyuanlitu" src="images/jiankangyuanli2.png" alt="">
+        <p class="jiankangyuanlituP ffyh">        红光谱图        </p>
+      </div>
     </div>
-    <p class="ffyh">        400-0179-018        </p>
-     <div class="cont shengChanShang ffyh cca">       生产商       
-    </div>
-    <p class="ffyh">        广州市松之纯电器有限公司        </p>
-  </div>
 
 
 
-  <div class="rightTopBar"></div>
 
 
-  <div class="proXiangQing">
-      <div class="rightTitle">
-        
+    <!--  右侧栏目3  -->
+    <div class="chanpingongneng">
+      <!--  标题左侧方块  -->
+      <div class="rightTitleBG"></div>
+      <!--  标题  -->
+      <div class="rightTitle ffyh cca">        产品功能        </div>
+      <!--  五个图片  -->
+      <div class="GNFivePart">
+
+
+
+
+      <!--  第二部分  -->
+        <div class="GNPart2">
+          <img src="images/GNPart2.png" alt="">
+          <div class="sanjiaoxing"></div>
+          <div class="zhezhaoceng">
+            <p class="P2Text1">        02        </p>
+            <p class="P2Text2 ffyh">        改善细胞有氧呼吸作用        </p>
+            <p class="P2Text3 ffyh">        加快细胞代谢与生产、加快肉芽组织生产、加速创面愈合和病症康复。线粒体中的多种酶的活性得到激发。        </p>
+          </div>
+        </div>
+
+        <div class="GNPart4">
+          <img src="images/GNPart4.png" alt="">
+          <div class="sanjiaoxing"></div>
+          <div class="zhezhaoceng">
+            <p class="P4Text1">        04        </p>
+            <p class="P4Text2 ffyh">        降低病症部位五羟色胺（5-HT）含量        </p>
+            <p class="P4Text3 ffyh">        产生良好的镇痛效果。        </p>
+          </div>
+        </div>
+
+         <div class="GNPart1">
+          <img src="images/GNPart1.png" alt="">
+          <div class="sanjiaoxing"></div>
+          <div class="zhezhaoceng">
+            <p class="P1Text1">        01        </p>
+            <p class="P1Text2 ffyh">        产生高效率的酶促反应        </p>
+            <p class="P1Text3 ffyh">        线粒体中的多种酶的活性得到激发，加快细胞新陈代谢、增加细胞糖元含量。        </p>
+          </div>
+        </div>
+
+
+
+         <div class="GNPart3">
+          <img src="images/GNPart3.png" alt="">
+          <div class="sanjiaoxing"></div>
+          <div class="zhezhaoceng">
+            <p class="P3Text1">        03        </p>
+            <p class="P3Text2 ffyh">        提高白血球的吞噬作用        </p>
+            <p class="P3Text3 ffyh">        自体消炎，提高机体的吞噬作用。        </p>
+          </div>
+        </div>
+
+
+
+
+         <div class="GNPart5">
+          <img src="images/GNPart5.png" alt="">
+          <div class="sanjiaoxing"></div>
+          <div class="zhezhaoceng">
+            <p class="P5Text1">        05        </p>
+            <p class="P5Text2 ffyh">        疏通经络调和气血作用        </p>
+            <p class="P5Text3 ffyh">        红光深入组织内，作用于穴位和经络，疏通经络调和气血。        </p>
+          </div>
+        </div>
+
       </div>
 
+    </div>
 
 
-        <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
-<script type="text/javascript" src="js/jquery.flexslider2.js"></script>
-<script type="text/javascript">
-$(window).load(function(){
 
-    $('.flexslider').flexslider({
-        animation: "fade",
-        controlNav: "thumbnails"
-    });
-  
-});
-</script>
-       <div class="flexsliderwarp">
-           <div class="flexslider">
-                <ul class="slides">
-                    <li data-thumb="images/chanpinlunbo1.png">
-                    <a href="#"></a>
-                    <p>YNK-H1</p>
-                        <img src="images/chanpinlunbo1.png">
-                    </li>
-                    <li data-thumb="images/chanpinlunbo2.png">
-                    <p>ABC-H2</p>
-                        <img src="images/chanpinlunbo2.png">
-                    </li>
-                    <li data-thumb="images/chanpinlunbo3.png">
-                    <p>KNY-H3</p>
-                        <img src="images/chanpinlunbo3.png">
-                    </li>
-                    <li data-thumb="images/chanpinlunbo4.png">
-                    <p>CBA-H4</p>
-                        <img src="images/chanpinlunbo4.png">
-                    </li>
-                </ul>
-            </div>
+    <!--  右侧栏目4  -->
+    <div class="zhinenghua">
+      <!--  标题左侧方块  -->
+      <div class="rightTitleBG"></div>
+      <!--  标题  -->
+      <div class="rightTitle ffyh cca">        智能化设计        </div>
+
+
+      <div class="ZNHPic"><img src="images/zhinenghua.png" alt=""></div>
+
+
+      <div class="LBX LBX1">
+        <p class="LBXTitle">01</p>
+        <p class="LBXText ffyh">足够大的光功率密度，<br />以达到人体理疗生理阈值。</p>
       </div>
+      <div class="LBX LBX2">
+        <p class="LBXTitle">02</p>
+        <p class="LBXText ffyh">足够大面积的有效理<br />疗光斑，以满足多种需要。</p>
+      </div>
+      <div class="LBX LBX3">
+        <p class="LBXTitle">03</p>
+        <p class="LBXText ffyh">有效穿透皮下<br />组织进行深层理疗,<br />穿透作用深，效果好。</p>
+      </div>
+      <div class="LBX LBX4">
+        <p class="LBXTitle">04</p>
+        <p class="LBXText ffyh">支臂灵活，易操作<br />一米范围内任意位置可停<br />方便灵活。</p>
+      </div>
+      <div class="LBX LBX5">
+        <p class="LBXTitle">05</p>
+        <p class="LBXText ffyh" style="bottom: 50px;">具有低功耗、高效率、无需<br />冷却可近距离使用, 准确性<br />高，无创伤、无痛苦<br />无毒副作用。</p>
+      </div>
+      <div class="LBX LBX6">
+        <p class="LBXTitle">06</p>
+        <p class="LBXText ffyh" style="bottom: 40px;">安全性可靠，红光健康仪<br />平均无故障时间达10000小<br />时,以上可长期反复使用<br />性价比高，对人体健康<br />有良好的保健作用。</p>
+      </div>
+    </div>
+
+
+    <!--  右侧栏目5  -->
+    <div class="chanpincanshu">
+      <!--  标题左侧方块  -->
+      <div class="rightTitleBG"></div>
+      <!--  标题  -->
+      <div class="rightTitle ffyh cca">        产品参数        </div>
+      
+
+      <div class="CPPic"><img src="images/chanpincanshu.png" alt=""></div>
+      
+      <div class="CPTA ffyh">
+      一、 正常工作条件<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;1、环境温度：5℃～40℃<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;2、相对湿度：≤80%<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;3、大气压力：700hpa～1060hpa<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;4、使用电源电压：AC 100V～240V±10%  50/60Hz ±1Hz<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;5、工作距离：50mm～100mm<br />
+      二、峰值波长：640nm±10nm；<br />
+      三、照射头亮度：≥8000cd/m2<br />
+      四、工作距离下的光功率密度：≥40W/m2<br />
+      五、定时控制：1min～90min按需可调，调整幅度5min，定时误差±1min<br />
+      六、光斑大小：≥80cm2<br />
+      七、支臂水平伸展范围：0mm≤S1≤1000mm</div>
+
+    </div>
 
 
 
 
 
 
+
+
+
+
+  </div>
+  <!--  右侧结束  -->
 
 </div>
+<!--  主体结束  -->
 
 
-
-  
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
+<!--  footer 开始  -->
 <div id="footer">
       <div class="ft-t">
           <div class="ft-tc">
             <div class="ft-l">
-                <div class="ft-lt">
-                    南昌新医诺电子科技有限公司
-                    <p>www.zhongguohongguang.com</p>
+                <div class="ft-lt">        
+                    南昌新医诺电子科技有限公司        
+                    <p>        www.zhongguohongguang.com        </p>
                 </div>
                 <div class="ft-lb">
-                    <p>TEL : 400-0179-018</p>
-                    <p>生产商：广州市松之纯电器有限公司</p>
-                    <p>地址：江西省南昌市青山湖区解放东路1888号立升国际7楼</p>
+                    <p>        TEL : 400-0179-018        </p>
+                    <p>        生产商：广州市松之纯电器有限公司        </p>
+                    <p>        地址：江西省南昌市青山湖区解放东路1888号立升国际7楼        </p>
                 </div>
             </div> 
             <div class="ft-c">
-                <img src="images/QRcode.png">
-                关注微信号
+                <img src="images/QRcode.png">        
+                关注微信号        
             </div>
             <div class="ft-r">
                 <div class="ft-rc">
                     <ul class="ft-tit">
-                        <li><a href="#">产品</a></li>
-                        <li><a href="#">品牌</a></li> 
-                        <li><a href="#">服务</a></li> 
-                        <li><a href="#">关于我们</a></li>
+                        <li><a href="#">        产品        </a></li>
+                        <li><a href="#">        品牌        </a></li> 
+                        <li><a href="#">        服务        </a></li> 
+                        <li><a href="#">        关于我们        </a></li>
                     </ul>
                     <ul>
-                        <li><a href="#">产品详情</a></li>
-                        <li><a href="#">产品结构</a></li>
-                        <li><a href="#">使用指南</a></li>
+                        <li><a href="#">        产品详情        </a></li>
+                        <li><a href="#">        产品结构        </a></li>
+                        <li><a href="#">        使用指南        </a></li>
                     </ul>
                     <ul>
-                        <li><a href="#">研发历程</a></li> 
-                        <li><a href="#">科学研究</a></li> 
-                        <li><a href="#">颠覆传统</a></li> 
-                        <li><a href="#">媒体报道</a></li>
+                        <li><a href="#">        研发历程        </a></li> 
+                        <li><a href="#">        科学研究        </a></li> 
+                        <li><a href="#">        颠覆传统        </a></li> 
+                        <li><a href="#">        媒体报道        </a></li>
                     </ul>    
                     <ul>
-                        <li><a href="#">使用指导</a></li> 
-                        <li><a href="#">维修保障</a></li> 
-                        <li><a href="#">咨询问答</a></li>
+                        <li><a href="#">        使用指导        </a></li> 
+                        <li><a href="#">        维修保障        </a></li> 
+                        <li><a href="#">        咨询问答        </a></li>
                     </ul>    
                     <ul>
-                        <li><a href="#">公司简介</a></li>
+                        <li><a href="#">        公司简介        </a></li>
                     </ul>
             </div>
           </div>  
@@ -266,10 +408,11 @@ $(window).load(function(){
           
       </div>  
       <div class="ft-b">
-             <div class="ft-bc">
-                南昌新医诺电子科技有限公司 © 2016版权所有<span>赣ICP备06044883号</span>技术支持：<a href="">云端科技</a>
+             <div class="ft-bc">        
+                南昌新医诺电子科技有限公司 © 2016版权所有        <span>        赣ICP备06044883号        </span>        技术支持：        <a href="">        云端科技        </a>
              </div>
           </div>  
 </div>
+<!--  footer 结束  -->
 </body>
 </html>
