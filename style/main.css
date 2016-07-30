@@ -267,6 +267,7 @@ a.link2 span {
 .mainRight {
   width: 923px;
   float: right;
+  position: relative;
 }
 
 
@@ -392,6 +393,27 @@ a.link2 span {
 
 
 
+
+
+.nowPlace {
+  width: 211px;
+  height: 15px;
+  background-image: url(../images/nowPlace.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 20px;
+  right: 0;
+  padding-left: 10px;
+}
+
+.nowPlace a {
+  font-size: 14px;
+  line-height: 15px;
+}
+
+.nowPlace a:hover {
+  color: #c5000a;
+}
 
 
 .rightTopBar {
@@ -1075,6 +1097,20 @@ p.P5Text3 {
   top: 81px;
   right: 0;
 }
+
+
+
+
+
+.yanfalicheng {
+  width: 923px;
+  height: 993px;
+  float: left;
+  margin-top: 35px;
+}
+
+
+
 
 
 
