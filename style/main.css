@@ -163,15 +163,13 @@ a.link2 span {
   -webkit-transform: translateY(-100%);
 }
 
-.sn a:hover span,
-.sn a:focus span {
+.sn a:hover span {
   -webkit-transform: translateY(100%);
   -moz-transform: translateY(100%);
   transform: translateY(100%);
 }
 
-.sn a:hover::before,
-.sn a:focus::before {
+.sn a:hover::before {
   -webkit-transform: translateY(0%);
   -moz-transform: translateY(0%);
   transform: translateY(0%);
@@ -1108,6 +1106,156 @@ p.P5Text3 {
   float: left;
   margin-top: 35px;
 }
+
+
+
+
+
+
+.gongsijianjie {
+  width: 923px;
+  height: 338px;
+  float: left;
+  margin-top: 23px;
+}
+
+
+
+
+.jianjie-main-text {
+  font-size: 14px;
+  color: #000;
+  line-height: 36px;
+  margin-top: 28px;
+  float: left;
+}
+
+.gsjj1 {
+  width: 197px;
+  height: 154px;
+  float: left;
+  margin-top: 30px;
+}
+
+.gsjj2 {
+  width: 197px;
+  height: 154px;
+  float: left;
+  margin-top: 30px;
+  margin-left: 45px;
+}
+
+
+
+
+
+.lianxidizhi {
+  width: 923px;
+  height: 604px;
+  float: left;
+  margin-top: 48px;
+}
+
+
+.dz-main {
+  width: 923px;
+  height: 393px;
+  float: left;
+  margin-top: 48px;
+}
+
+.map {
+  width: 607px;
+  height: 393px;
+  float: left;
+}
+
+
+.iw_poi_title {
+  color:#d74418;
+  font-size:18px;
+  font-weight:bold;
+  overflow:hidden;
+  padding-right:13px;
+  white-space:nowrap;
+}
+
+.iw_poi_content {
+  overflow:visible;
+  padding-top:4px;
+  white-space:-moz-pre-wrap;
+  word-wrap:break-word;
+  line-height:24px; 
+  color:#616364; 
+  font-weight:bold;
+}
+
+.con_map { 
+  width:605px; 
+  height:391px; 
+  border:1px solid #fff; 
+}
+
+
+.map-info {
+  width: 300px;
+  height: 393px;
+  float: left;
+  margin-left: 16px;
+  background: #fcdade;
+}
+
+.place-text {
+  width: 230px;
+  height: 72px;
+  margin-top: 21px;
+  float: left;
+  background: url(../images/placeicon.png);
+  background-repeat: no-repeat;
+  background-position: 17px 0;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: justify;
+  padding-left: 49px;
+}
+
+.bus-text {
+  width: 230px;
+  height: 264px;
+  float: left;
+  background: url(../images/busicon.png);
+  background-repeat: no-repeat;
+  background-position: 17px 0;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: justify;
+  padding-left: 49px;
+}
+
+.phone-text {
+  width: 230px;
+  height: 36px;
+  float: left;
+  background: url(../images/phoneicon.png);
+  background-repeat: no-repeat;
+  background-position: 17px 0;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: justify;
+  padding-left: 49px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
